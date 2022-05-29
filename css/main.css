@@ -28,12 +28,13 @@
 	width: 50%;
 	opacity: 0,8;
 	margin-top: -150px;
+	margin-bottom: -150px;
 	margin-left: auto;
 	margin-right: auto;
 	}
 	
 .search {
-	 
+	 margin-top: 10px;
 width: 100%;
   padding: 10px 0 5px;
   color: #333333;
@@ -48,3 +49,29 @@ width: 100%;
   outline-color: transparent;
   border-bottom: 1px solid #aaaaaa;
 }
+
+.modal-block {
+    display: none;
+    background-image: #aaaaaa !important;
+    background-size: cover !important;
+    cursor: default !important;
+}
+
+.modal-button {
+    
+    max-width: 340px;
+    font-family: "Proxima Nova - Semibold";
+    font-weight: 500;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #09f, #0bf, #0ff);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2em;
+    margin: 35px auto 0 auto;
+    transition: .25s;
+	text-align: center;
+}
+
