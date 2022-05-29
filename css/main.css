@@ -58,7 +58,7 @@ width: 100%;
 }
 
 .modal-button {
-    
+        display: block;
     max-width: 340px;
     font-family: "Proxima Nova - Semibold";
     font-weight: 500;
@@ -70,8 +70,23 @@ width: 100%;
     cursor: pointer;
     border: none;
     border-radius: 2em;
-    margin: 35px auto 0 auto;
+    margin: 40px auto 0 auto;
     transition: .25s;
 	text-align: center;
 }
 
+.modal-title4{
+	 font-family: "Proxima Nova - Semibold";
+    
+    font-size: 16px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.modal-title5{
+	 font-family: "Proxima Nova - Semibold";
+    font-size: 12px;
+    color: #716a85;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
